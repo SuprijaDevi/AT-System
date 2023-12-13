@@ -17,7 +17,7 @@ body {
     background-color: transparent;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0,);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(35px);
     padding: 30px;
     width: 450px;
     text-align: left;
@@ -53,7 +53,7 @@ body {
   }
   
   .signup-button {
-    background-color: #4caf50;
+    background-color: #5147dd;
     color: #fff;
     padding: 10px;
     border: none;
@@ -63,9 +63,14 @@ body {
   }
   
   .signup-button:hover {
-    background-color: #45a049;
+    background-color: #6f716f;
   }
   p{
     color: #fff;
   }
-  
+  button{
+    color:#fff;
+    border:none;
+    background-color:transparent;
+    cursor:pointer;
+  }
