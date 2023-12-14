@@ -1,5 +1,5 @@
 import React from 'react';
-import './SignUp.css';
+import './Login.css';
 import {Link} from 'react-router-dom';
 function SignUp()
 {
@@ -17,7 +17,7 @@ function SignUp()
         </div>
         <div className="input-group">
           <label htmlFor="mobile">Mobile Number:</label>
-          <input type="tel" id="mobile" placeholder="Mpbile Number" name="mobile" pattern="[0-9]{10}" required />
+          <input type="tel" id="mobile" placeholder="Mobile Number" name="mobile" pattern="[0-9]{10}" required />
         </div>
         <div className="input-group">
           <label htmlFor="email">Email:</label>

@@ -1,10 +1,12 @@
 import React from 'react';
 import './Login.css';
 import {Link} from 'react-router-dom';
+import {FaUser} from 'react-icons/fa';
 function Login()
 {
   return (
-    <div className="signup-container1">
+    <div className="signup-container">
+      <FaUser className="user-icon" />
       <h2>Login</h2>
       <form action="#" method="post">
         <div className="input-group">
@@ -14,6 +16,14 @@ function Login()
         <div className="input-group">
           <label htmlFor="password">Password:</label>
           <input type="password" id="password" placeholder="Password" name="password" required />
+        </div>
+        <div className="input-group">
+          <label>
+            <input type="checkbox" id="rememberMe" name="rememberMe" /> Remember Me
+          </label>
+          </div>
+        <div className="password-options">
+        <a href="/">Forgot Password?</a>
         </div>
         <button type="submit" className="signup-button">
           Login
