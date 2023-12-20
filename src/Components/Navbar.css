@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    background-color: #202d3e;
+  }
+  
+  .nav-logo-container img {
+    height: 50px; /* Adjust the height as needed */
+    margin-bottom: -5%;
+
+  }
+  
+  .navbar-links-container a {
+    margin-right: 20px; /* Adjust the spacing between links */
+    text-decoration: none;
+    color: white;
+    font-family:'Trebuchet MS';
+    font-size: larg;
+  }
+  
+  .primary-button {
+    background-color: transparent; /* Adjust the button color */
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a:hover{
+    color: orange;
+  }
+  span{
+    font-size: 170%;
+    font-family:cursive;
+  }
+  
+
+  
